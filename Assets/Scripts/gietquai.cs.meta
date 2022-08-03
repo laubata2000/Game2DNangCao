@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 36a46c10b728f924c9e2d0b87ea50b98
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - soundmain: {instanceID: 0}
+  - soundchet: {instanceID: 0}
+  - soundcoin: {instanceID: 0}
+  - imgNen: {instanceID: 0}
+  - imgChu: {instanceID: 0}
+  - textGameOver: {instanceID: 0}
+  - btnSetting: {instanceID: 0}
+  - btnReplay: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
