@@ -11,6 +11,9 @@ TextureImporter:
   - first:
       213: 7625517123303981525
     second: woodenSprites_2
+  - first:
+      213: -7238557026759173848
+    second: woodenSprites_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -148,7 +151,7 @@ TextureImporter:
         width: 205
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -156,6 +159,27 @@ TextureImporter:
       bones: []
       spriteID: 5d141330c6743d960800000000000000
       internalID: 7625517123303981525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: woodenSprites_3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 78
+        width: 76
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8299c955cba7b8b90800000000000000
+      internalID: -7238557026759173848
       vertices: []
       indices: 
       edges: []

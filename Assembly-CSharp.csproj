@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C0610E3D-CBDF-E042-7E01-63935F46B5CC}</ProjectGuid>
+    <ProjectGuid>{319AFF84-5FC9-14D1-01C3-ADA6A09F0A33}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -65,6 +65,9 @@
     <Compile Include="Assets\Scripts\DiChuyen.cs" />
     <Compile Include="Assets\Scripts\Gameover.cs" />
     <Compile Include="Assets\Scripts\SettingGame.cs" />
+    <Compile Include="Assets\Scripts\Dichuyen1.cs" />
+    <Compile Include="Assets\Scripts\GietDongTien.cs" />
+    <Compile Include="Assets\Scripts\ChuyenManPlayer2.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -277,6 +280,9 @@
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>D:\Unity\Editor\Data\Managed\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets\Plugins\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:\Unity\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>

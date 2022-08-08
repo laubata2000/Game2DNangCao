@@ -16,6 +16,7 @@ public class gietquai : MonoBehaviour
     public GameObject imgNen;
     public GameObject imgChu;
     public GameObject textGameOver;
+    public GameObject textSavePoint;
     public GameObject btnSetting;
     public GameObject btnReplay;
     public static int diemTong = 0;
@@ -27,6 +28,10 @@ public class gietquai : MonoBehaviour
 
     void Start()
     {
+        soundmain.Play();
+        soundchet.Stop();
+        soundcoin.Stop();
+        giet.Stop();
         CongDiem(0);
         
     }
@@ -41,6 +46,7 @@ public class gietquai : MonoBehaviour
     {
         diemTong += diemCong;
         diemText.GetComponent<Text>().text = "Coin: " + diemTong.ToString();
+        textSavePoint.GetComponent<Text>().text = "Điểm của bạn: " + diemTong.ToString();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -59,6 +65,7 @@ public class gietquai : MonoBehaviour
             imgNen.SetActive(true);
             imgChu.SetActive(true);
             textGameOver.SetActive(true);
+            textSavePoint.SetActive(true);
             btnSetting.SetActive(true);
             btnReplay.SetActive(true);
             //SceneManager.LoadScene("man0");
@@ -95,6 +102,7 @@ public class gietquai : MonoBehaviour
         
 
     }
-
     
+
+
 }

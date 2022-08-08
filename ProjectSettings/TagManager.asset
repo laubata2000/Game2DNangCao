@@ -11,6 +11,9 @@ TagManager:
   - coinne
   - hancuoi
   - phiaduoi
+  - coin_nhe
+  - bentrenlua
+  - handuoi
   layers:
   - Default
   - TransparentFX

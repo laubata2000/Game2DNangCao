@@ -22,6 +22,7 @@ public class DiChuyen : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        soundjump.Stop();
         ani = GetComponent<Animator>();
         rigidbody = GetComponent<Rigidbody2D>();
         
@@ -54,6 +55,7 @@ public class DiChuyen : MonoBehaviour
                 transform.Translate(Time.deltaTime*5, Time.deltaTime * 15, 0);
                 soundjump.Play();
                 ani.Play("nhay");
+                ani.SetBool("isRuning", true);
 
             }
             else
@@ -61,6 +63,7 @@ public class DiChuyen : MonoBehaviour
                 transform.Translate(-Time.deltaTime*3, Time.deltaTime * 10, 0);
                 soundjump.Play();
                 ani.Play("nhay");
+                ani.SetBool("isRuning", true);
             }
 
         }
@@ -80,7 +83,7 @@ public class DiChuyen : MonoBehaviour
             //textGameOver.SetActive(true);
             //btnSetting.SetActive(true);
             //btnReplay.SetActive(true);
-            SceneManager.LoadScene("man0");
+            SceneManager.LoadScene("man2");
             
 
         }
